@@ -17,9 +17,7 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 $(call inherit-product, vendor/xiaomi/riva/riva-vendor.mk)
-
-# HWUI
-$(call inherit-product, frameworks/native/build/phone-xxhdpi-3072-hwui-memory.mk)
+$(call inherit-product, vendor/nitrogen/config/qcom_utils.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
