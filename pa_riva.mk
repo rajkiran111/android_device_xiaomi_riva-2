@@ -29,9 +29,6 @@ include device/qcom/common/common.mk
 # Inherit the device configuration itself.
 $(call inherit-product, device/xiaomi/riva/full_riva.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/nitrogen/products/common.mk)
-
 PRODUCT_DEVICE := riva
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5A
