@@ -1,0 +1,32 @@
+[
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_xiaomi_gemini",
+        "target_path":  "device/xiaomi/gemini",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_kernel_xiaomi_msm8996",
+        "target_path":  "kernel/xiaomi/msm8996",
+        "revision":     "nougat-mr2"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "hardware/qcom/audio-caf-msm8996",
+        "revision":     "oreo-mr1-8996"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display-caf-msm8996",
+        "revision":     "oreo-mr1-8996"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media-caf-msm8996",
+        "revision":     "oreo-mr1-8996"
+    }
+]
