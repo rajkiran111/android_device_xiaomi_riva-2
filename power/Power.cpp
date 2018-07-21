@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "android.hardware.power@1.0-service.rolex"
+#define LOG_TAG "android.hardware.power@1.0-service.riva"
 
 // #define LOG_NDEBUG 0
 
