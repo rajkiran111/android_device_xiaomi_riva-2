@@ -17,7 +17,7 @@
 $(call inherit-product, device/xiaomi/riva/full_riva.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
 PRODUCT_NAME := aosp_riva
 BOARD_VENDOR := Xiaomi
